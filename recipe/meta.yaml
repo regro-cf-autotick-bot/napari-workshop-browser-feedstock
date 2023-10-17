@@ -1,5 +1,5 @@
 {% set name = "napari-workshop-browser" %}
-{% set version = "0.0.2" %}
+{% set version = "0.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-workshop-browser-{{ version }}.tar.gz
-  sha256: 922a8e90738ca1b816bd5c24d6cdfa9ab1456da4cdac42f73ebc67bcb80fd7b2
+  sha256: c3227fa992d309d2a28ae7339ade3b14c60149b53c9c452f36446262bb364a24
 
 build:
   noarch: python
