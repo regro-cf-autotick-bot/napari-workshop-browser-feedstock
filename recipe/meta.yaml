@@ -21,7 +21,7 @@ requirements:
   run:
     - appdirs
     - jupytext
-    - notebook < 7.0.0
+    - notebook <7.0.0
     - napari
     - numpy
     - python >=3.8
